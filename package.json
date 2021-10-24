@@ -3,7 +3,7 @@
     "start": "run-p dev watch",
     "build": "sass sass:css",
     "watch": "npm run build -- --watch",
-    "dev": "live-server"
+    "dev": "live-server --port=8090"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
