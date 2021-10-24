@@ -1,0 +1,21 @@
+//basic style
+body {
+  background-color: $black;
+  color: $white;
+  font-family: $baseFont;
+  font-weight: 400;
+}
+
+//header layout
+.header {
+  @include flexbox; 
+}
+
+//넷플릭스 로고
+.header__title {
+  width: 50%;
+
+  @at-root .logo {
+    display: block;
+  }
+}

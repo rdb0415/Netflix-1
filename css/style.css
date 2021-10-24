@@ -1,0 +1,41 @@
+.sr-only {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+}
+
+body {
+  background-color: #010101;
+  color: #fefefe;
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.header__title {
+  width: 50%;
+}
+.logo {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
